@@ -115,18 +115,19 @@
         border: 0;
         box-shadow: none;
         padding: 0.25rem 0 0.4rem;
-        background: rgba(255, 255, 255, 0.08);
+        background: #ffffff !important;
+        width: 100%;
     }
 
     .dropdown-item {
-        color: #fff;
+        color: var(--bs-dark);
         white-space: normal;
         line-height: 1.3;
     }
 
     .dropdown-item:hover {
-        color: #fff !important;
-        background: rgba(255, 255, 255, 0.15);
+        color: var(--bs-primary) !important;
+        background: #f0f7ff;
     }
 }
 </style>
