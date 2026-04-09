@@ -15,23 +15,23 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Our Services</h4>
-                    <NuxtLink class="btn btn-link" to="/fan-coil-heat-pump-maintenance">Fan Coil &amp; Heat Pump</NuxtLink>
-                    <NuxtLink class="btn btn-link" to="/dryer-washroom-exhaust-systems">Dryer &amp; Washroom Exhaust</NuxtLink>
-                    <NuxtLink class="btn btn-link" to="/ventilation-system-cleaning-balancing">Ventilation Cleaning &amp; Balancing</NuxtLink>
-                    <NuxtLink class="btn btn-link" to="/exclusive-total-reporting">Exclusive Total Reporting</NuxtLink>
+                    <a class="btn btn-link" href="/fan-coil-heat-pump-maintenance">Fan Coil &amp; Heat Pump</a>
+                    <a class="btn btn-link" href="/dryer-washroom-exhaust-systems">Dryer &amp; Washroom Exhaust</a>
+                    <a class="btn btn-link" href="/ventilation-system-cleaning-balancing">Ventilation Cleaning &amp; Balancing</a>
+                    <a class="btn btn-link" href="/exclusive-total-reporting">Exclusive Total Reporting</a>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Quick Links</h4>
-                    <NuxtLink class="btn btn-link" to="/">Home</NuxtLink>
-                    <NuxtLink class="btn btn-link" to="/the-clinicair-condo-ventilation-team">Our Team</NuxtLink>
-                    <NuxtLink class="btn btn-link" to="/exclusive-total-reporting">Total Reporting</NuxtLink>
-                    <NuxtLink class="btn btn-link" to="/contact-us">Contact Us</NuxtLink>
+                    <a class="btn btn-link" href="/">Home</a>
+                    <a class="btn btn-link" href="/the-clinicair-condo-ventilation-team">Our Team</a>
+                    <a class="btn btn-link" href="/exclusive-total-reporting">Total Reporting</a>
+                    <a class="btn btn-link" href="/contact-us">Contact Us</a>
                 </div>
             </div>
             <div class="copyright pt-5">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; 2025 <NuxtLink class="fw-semi-bold" to="/">Clinicair Condo Ventilation</NuxtLink>, All Rights Reserved.
+                        &copy; 2025 <a class="fw-semi-bold" href="/">Clinicair Condo Ventilation</a>, All Rights Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <a class="fw-semi-bold" href="#">Privacy Policy</a> | <a class="fw-semi-bold" href="#">Terms of Use</a>

@@ -10,8 +10,8 @@
                             <h1 class="display-1 text-uppercase mb-3">Condominium Ventilation Protocols</h1>
                             <p class="fs-5 mb-5">Improve condominium ventilation rates to achieve great air quality in a building and address Covid-19 concerns.</p>
                             <div class="d-flex flex-wrap gap-2">
-                                <NuxtLink class="btn btn-primary py-3 px-4" to="/fan-coil-heat-pump-maintenance">Our Services</NuxtLink>
-                                <NuxtLink class="btn btn-secondary py-3 px-4" to="/contact-us">Contact Us</NuxtLink>
+                                <a class="btn btn-primary py-3 px-4" href="/fan-coil-heat-pump-maintenance">Our Services</a>
+                                <a class="btn btn-secondary py-3 px-4" href="/contact-us">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -29,8 +29,8 @@
                             <h1 class="display-1 text-uppercase mb-3">A Comprehensive Strategy</h1>
                             <p class="fs-5 mb-5">Clinicair Condo Ventilation’s unique three-year Comprehensive Ventilation Strategy (CVS) is designed to effectively address the entire fresh air system.</p>
                             <div class="d-flex flex-wrap gap-2 mt-4">
-                                <NuxtLink class="btn btn-primary py-3 px-4" to="/the-clinicair-condo-ventilation-team">Our Team</NuxtLink>
-                                <NuxtLink class="btn btn-secondary py-3 px-4" to="/exclusive-total-reporting">Read More</NuxtLink>
+                                <a class="btn btn-primary py-3 px-4" href="/the-clinicair-condo-ventilation-team">Our Team</a>
+                                <a class="btn btn-secondary py-3 px-4" href="/exclusive-total-reporting">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
                             <div class="h-100 bg-primary p-4 text-center">
                                 <p class="fs-5 text-dark">These three systems develop an astonishing amount of dirt. Let us clean them for you.</p>
-                                <NuxtLink class="btn btn-secondary py-2 px-4" to="/contact-us">Contact Us</NuxtLink>
+                                <a class="btn btn-secondary py-2 px-4" href="/contact-us">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -148,7 +148,7 @@
                                 </div>
                                 <h3>Fresh Air Supply</h3>
                                 <p class="mb-2">Ensure the common hallways and areas receive adequate, balanced fresh air.</p>
-                                <NuxtLink to="/ventilation-system-cleaning-balancing">Read More</NuxtLink>
+                                <a href="/ventilation-system-cleaning-balancing">Read More</a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
@@ -158,7 +158,7 @@
                                 </div>
                                 <h3>Dryer & Washroom Exhaust</h3>
                                 <p class="mb-2">Crucial systems for removing moisture, preventing mold, and saving energy.</p>
-                                <NuxtLink to="/dryer-washroom-exhaust-systems">Read More</NuxtLink>
+                                <a href="/dryer-washroom-exhaust-systems">Read More</a>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.5s">
@@ -168,7 +168,7 @@
                                 </div>
                                 <h3>Fan Coil & Heat Pump</h3>
                                 <p class="mb-2">Regular cleaning ensures peak efficiency and improves suite air quality.</p>
-                                <NuxtLink to="/fan-coil-heat-pump-maintenance">Read More</NuxtLink>
+                                <a href="/fan-coil-heat-pump-maintenance">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -227,8 +227,8 @@
                     <p class="text-dark wow fadeIn" data-wow-delay="0.6s"><i
                             class="fa fa-check text-primary me-2"></i>Increase ventilation rates by up to 50%</p>
                     <div class="d-flex flex-wrap gap-2 mt-4 wow fadeIn" data-wow-delay="0.7s">
-                        <NuxtLink class="btn btn-primary py-3 px-4" to="/fan-coil-heat-pump-maintenance">Our Services</NuxtLink>
-                        <NuxtLink class="btn btn-secondary py-3 px-4" to="/contact-us">Contact Us</NuxtLink>
+                        <a class="btn btn-primary py-3 px-4" href="/fan-coil-heat-pump-maintenance">Our Services</a>
+                        <a class="btn btn-secondary py-3 px-4" href="/contact-us">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -269,8 +269,8 @@
                         <h1 class="display-6 wow fadeIn text-white" data-wow-delay="0.3s">Ready to Improve Your Building's Air Quality?</h1>
                         <p class="fs-5 mb-4 wow fadeIn text-white" data-wow-delay="0.5s">Let our team assess your condominium's ventilation system and develop a comprehensive strategy tailored to your building's needs.</p>
                         <div class="d-flex flex-wrap justify-content-center gap-3 wow fadeIn" data-wow-delay="0.7s">
-                            <NuxtLink class="btn btn-light text-primary fw-bold py-3 px-4" to="/contact-us">Request Assessment</NuxtLink>
-                            <NuxtLink class="btn btn-outline-light py-3 px-4" to="/exclusive-total-reporting">Learn More</NuxtLink>
+                            <a class="btn btn-light text-primary fw-bold py-3 px-4" href="/contact-us">Request Assessment</a>
+                            <a class="btn btn-outline-light py-3 px-4" href="/exclusive-total-reporting">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -289,7 +289,7 @@
                     <div class="d-flex flex-column justify-content-center p-5" style="position: relative; z-index: 3; min-height: 300px;">
                         <h2 class="mb-3 fw-bold" style="color: #ffffff;">Request a Free Building Assessment</h2>
                         <p class="mb-4" style="color: rgba(255,255,255,0.92);">Our team will evaluate your condominium's ventilation system and provide a detailed proposal for improving air quality throughout the building.</p>
-                        <NuxtLink class="btn btn-light text-primary fw-bold py-3" to="/contact-us" style="max-width: 280px;">Get Your Free Assessment &rarr;</NuxtLink>
+                        <a class="btn btn-light text-primary fw-bold py-3" href="/contact-us" style="max-width: 280px;">Get Your Free Assessment &rarr;</a>
                     </div>
                 </div>
                 <div class="col-lg-5 donate-form bg-primary text-center wow fadeIn" data-wow-delay="0.5s">
@@ -391,7 +391,7 @@
                 </div>
             </div>
             <div class="text-center mt-5 wow fadeIn" data-wow-delay="0.7s">
-                <NuxtLink class="btn btn-primary py-3 px-5" to="/the-clinicair-condo-ventilation-team">Meet the Full Team</NuxtLink>
+                <a class="btn btn-primary py-3 px-5" href="/the-clinicair-condo-ventilation-team">Meet the Full Team</a>
             </div>
         </div>
     </div>
@@ -406,7 +406,7 @@
                 <div class="col-lg-7 text-center wow fadeIn" data-wow-delay="0.5s">
                     <h1 class="display-6 mb-4 text-white">Download Our Brochure</h1>
                     <p class="fs-5 mb-4 text-light">Learn more about our Comprehensive Ventilation Strategy and how Clinicair can improve your building's air quality.</p>
-                    <NuxtLink class="btn btn-secondary py-3 px-5" to="/contact-us"><i class="fa fa-download me-2"></i>Request Brochure</NuxtLink>
+                    <a class="btn btn-secondary py-3 px-5" href="/contact-us"><i class="fa fa-download me-2"></i>Request Brochure</a>
                 </div>
             </div>
         </div>

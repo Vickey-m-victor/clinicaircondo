@@ -2,12 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  vite: {
-    server: {
-      allowedHosts: [
-        'previgilantly-juiceless-latoya.ngrok-free.dev'
-      ]
-    }
+  server: {
+    allowedHosts: [
+      'previgilantly-juiceless-latoya.ngrok-free.dev'
+    ]
   },
   app: {
     head: {
