@@ -10,7 +10,16 @@
         }, 1);
     };
     spinner();
-    
+    // Navbar width transition on scroll
+    // Keep this class-only to avoid layout jumps from inline styles.
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 90) {
+            $('.nav-bar').addClass('nav-scrolled');
+        } else {
+            $('.nav-bar').removeClass('nav-scrolled');
+        }
+    });
+
     
     // Initiate the wowjs
     // new WOW().init();
