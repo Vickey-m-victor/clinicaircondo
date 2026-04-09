@@ -1,6 +1,6 @@
 <template>
     <!-- Topbar Start -->
-    <div class="container-fluid bg-secondary top-bar wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-secondary top-bar">
         <div class="row align-items-center h-100">
             <div class="col-lg-4 text-center text-lg-start">
                 <a href="/">

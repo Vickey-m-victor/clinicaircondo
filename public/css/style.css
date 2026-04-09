@@ -95,9 +95,8 @@
 .nav-bar {
     padding: 0 90px;
     transition: .5s;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+    position: relative;
+    z-index: 1;
 }
 
 @media (max-width: 1199.98px) {
@@ -577,6 +576,10 @@
     z-index: 2;
 }
 
+.donate .row.g-0 {
+    align-items: stretch;
+}
+
 .donate .donate-overlay {
     position: absolute;
     top: 0;
@@ -625,6 +628,25 @@
 .donate .donate-form .btn-group .btn-check:checked+.btn {
     border: none;
     background: var(--bs-white);
+}
+
+.donate .donate-copy {
+    min-height: 300px;
+    position: relative;
+    z-index: 3;
+}
+
+.donate .donate-copy-text {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.donate .donate-copy-cta {
+    max-width: 280px;
+}
+
+.donate .donate-form {
+    position: relative;
+    z-index: 4;
 }
 
 
@@ -880,6 +902,17 @@
     .donate .col-lg-7,
     .donate .col-lg-5 {
         width: 100%;
+    }
+    .donate .donate-copy {
+        min-height: auto;
+        padding: 2rem 1.25rem !important;
+    }
+    .donate .donate-copy-cta {
+        width: 100%;
+        max-width: none;
+    }
+    .donate .donate-form .p-5 {
+        padding: 1.25rem !important;
     }
     /* Banner section */
     .banner .col-lg-8 {

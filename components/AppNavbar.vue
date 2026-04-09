@@ -1,16 +1,21 @@
 <template>
     <!-- Navbar Start -->
-    <div class="container-fluid px-0 wow fadeIn sticky-top" data-wow-delay="0.1s" style="background: linear-gradient(90deg, #004D7A 0%, #051311 100%); z-index: 1020;">
+    <div class="container-fluid px-0 sticky-top app-navbar-wrap">
         <div class="nav-bar">
-            <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-lg-0">
-                <div class="d-flex d-lg-none w-100 align-items-center justify-content-between px-3 py-2">
-                    <h4 class="m-0 text-white">Menu</h4>
-                    <button type="button" class="navbar-toggler border-0 p-1" data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse" aria-expanded="false">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse px-4" id="navbarCollapse">
+            <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-2 py-lg-0">
+                <a href="/" class="navbar-brand d-lg-none text-white fw-bold ms-2">Clinicair</a>
+                <button
+                    type="button"
+                    class="navbar-toggler border-0 ms-auto me-2"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse px-2 px-lg-4" id="navbarCollapse">
                     <div class="navbar-nav me-auto">
                         <a href="/" class="nav-item nav-link active text-white fw-bold">Home</a>
                         
@@ -27,8 +32,8 @@
                         <a href="/the-clinicair-condo-ventilation-team" class="nav-item nav-link text-white fw-bold">Our Team</a>
                         <a href="/contact-us" class="nav-item nav-link text-white fw-bold">Contact Us</a>
                     </div>
-                    <div class="d-none d-lg-flex ms-auto">
-                        <a class="btn btn-dark ms-2 fw-bold" href="/contact-us" style="padding: 10px 20px;">Get Assessment</a>
+                    <div class="d-flex ms-lg-auto mt-3 mt-lg-0">
+                        <a class="btn btn-dark fw-bold nav-cta-btn" href="/contact-us">Get Assessment</a>
                     </div>
                 </div>
             </nav>
@@ -38,6 +43,12 @@
 </template>
 
 <style scoped>
+.app-navbar-wrap {
+    background: linear-gradient(90deg, #004d7a 0%, #051311 100%);
+    top: 0;
+    z-index: 1030;
+}
+
 .nav-link:hover {
     color: #7dd3ef !important;
 }
@@ -75,5 +86,47 @@
 .dropdown-item:hover {
     background: #f0f7ff;
     color: var(--bs-primary) !important;
+}
+
+.nav-cta-btn {
+    padding: 10px 20px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        padding-bottom: 1rem;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        margin-right: 0 !important;
+        padding: 0.65rem 0 !important;
+    }
+
+    .nav-cta-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        border: 0;
+        box-shadow: none;
+        padding: 0.25rem 0 0.4rem;
+        background: rgba(255, 255, 255, 0.08);
+    }
+
+    .dropdown-item {
+        color: #fff;
+        white-space: normal;
+        line-height: 1.3;
+    }
+
+    .dropdown-item:hover {
+        color: #fff !important;
+        background: rgba(255, 255, 255, 0.15);
+    }
 }
 </style>

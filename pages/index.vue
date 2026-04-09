@@ -284,15 +284,15 @@
     <div class="container-fluid donate py-5">
         <div class="container">
             <div class="row g-0">
-                <div class="col-lg-7 donate-text wow fadeIn" data-wow-delay="0.1s">
+                <div class="col-lg-7 donate-text">
                     <div class="donate-overlay"></div>
-                    <div class="d-flex flex-column justify-content-center p-5" style="position: relative; z-index: 3; min-height: 300px;">
-                        <h2 class="mb-3 fw-bold" style="color: #ffffff;">Request a Free Building Assessment</h2>
-                        <p class="mb-4" style="color: rgba(255,255,255,0.92);">Our team will evaluate your condominium's ventilation system and provide a detailed proposal for improving air quality throughout the building.</p>
-                        <a class="btn btn-light text-primary fw-bold py-3" href="/contact-us" style="max-width: 280px;">Get Your Free Assessment &rarr;</a>
+                    <div class="d-flex flex-column justify-content-center p-5 donate-copy">
+                        <h2 class="mb-3 fw-bold text-white">Request a Free Building Assessment</h2>
+                        <p class="mb-4 donate-copy-text">Our team will evaluate your condominium's ventilation system and provide a detailed proposal for improving air quality throughout the building.</p>
+                        <a class="btn btn-light text-primary fw-bold py-3 donate-copy-cta" href="/contact-us">Get Your Free Assessment &rarr;</a>
                     </div>
                 </div>
-                <div class="col-lg-5 donate-form bg-primary text-center wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-5 donate-form bg-primary text-center">
                     <div class="p-5">
                         <form>
                             <div class="row g-3">
